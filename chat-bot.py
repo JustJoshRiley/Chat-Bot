@@ -16,10 +16,10 @@ def get_bot_response(user_response):
     while player == False:
         player = user_response
         # test user input
-        print(player)
+        # print(player)
         computer_choice = computer[randint(0,2)]
         # test computer input 
-        print(computer_choice)
+        # print(computer_choice)
         if computer_choice == player:
             print("Draw!")
 
@@ -53,12 +53,6 @@ def get_bot_response(user_response):
             # if player == "Paper":
             print(choice(player_lost))
 
-        
-    # else:
-
-
-
-
 user_response = " "
 cont = True
 while cont:
@@ -69,8 +63,3 @@ while cont:
         cont = False
     else: 
             pass
-
-
-# computer = get_bot_response(user_response)
-# print(run_game)
-
