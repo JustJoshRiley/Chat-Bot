@@ -59,7 +59,16 @@ def get_bot_response(user_response):
 
 
 
-
+user_response = " "
+cont = True
+while cont:
+    user_response = input("Choose Rock, Paper, or Knife: ")
+    get_bot_response(user_response)
+    play_again = input("Would you like to play again? (yes/no) > ")
+    if play_again.lower() == 'no' or "done":
+        cont = False
+    else: 
+            pass
 
 
 # computer = get_bot_response(user_response)
