@@ -1,4 +1,4 @@
-# import random
+#import random
 from random import choice, randint
 #Make Greeting
 print("Hey There! Welcome to Rock, Paper, Knife. You will be Demolished by the Chat Bot you are playing against...Failure is inevitable.")
@@ -59,7 +59,7 @@ while cont:
     user_response = input("Choose Rock, Paper, or Knife: ")
     get_bot_response(user_response)
     play_again = input("Would you like to play again? (yes/no) > ")
-    if play_again.lower() == 'no' or "done":
+    if play_again.lower() == "no" or play_again.lower() == "done":
         cont = False
     else: 
             pass
