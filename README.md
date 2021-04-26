@@ -23,3 +23,5 @@ Knife and Knife
 it will end in a DRAW!
 
 Remeber the computer won't ever give up. You can play until you're content. Just say done when your finished!
+
+### Download and run chat-bot.py
